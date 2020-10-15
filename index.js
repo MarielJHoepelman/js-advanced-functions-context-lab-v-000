@@ -1,6 +1,6 @@
 /* Your Code Here */
-const createEmployeeRecord = () => {
-  
+const createEmployeeRecord = (employeeData) => {
+  console.log(employeeData)
 }
 /*
  We're giving you this function. Take a look at it, you might see some usage
