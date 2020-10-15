@@ -19,12 +19,16 @@ const createEmployeeRecord = employeeData => {
   };
 }
 
-const createEmployeeRecords = records => {
-  return records.map(record => {
-    return createEmployeeRecords(record)
+// const createEmployeeRecords = records => {
+//   return records.map(record => {
+//     return createEmployeeRecords(record)
+//   });
+// }
+function createEmployeeRecords(employeesInfo){
+  return employeesInfo.map(information => {
+    return createEmployeeRecord(information)
   });
 }
-
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
