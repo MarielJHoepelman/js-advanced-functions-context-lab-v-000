@@ -22,7 +22,7 @@ const createEmployeeRecord = employeeData => {
 const createEmployeeRecords = records => {
   return records.map(record => {
     return createEmployeeRecords(record)
-  }, 0);
+  });
 }
 
 /*
