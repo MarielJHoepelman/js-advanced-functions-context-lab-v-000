@@ -24,7 +24,7 @@ const createEmployeeRecords = records => {
   for (const record of records) {
     createEmployeeRecords(record)
   }
-  return arrarOfObjects
+  return arrarOfObjects;
 }
 
 /*
