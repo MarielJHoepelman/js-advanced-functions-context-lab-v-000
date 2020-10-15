@@ -20,7 +20,9 @@ const createEmployeeRecord = employeeData => {
 }
 
 const createEmployeeRecords = records => {
-  
+  for (const record of records) {
+    createEmployeeRecords(record)
+  }
 }
 
 /*
