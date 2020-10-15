@@ -41,7 +41,10 @@ function createTimeInEvent(date){
   return this;
 }
 
-
+function createTimeOutEvent(date){
+  this.timeInEvents.push(createTimeEventObject("TimeIn", date));
+  return this;
+}
 
 
 
