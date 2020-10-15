@@ -9,14 +9,14 @@ const createEmployeeRecord = (employeeData) => {
   timeOutEvents = [],
 ] = employeeData;
 
-return {
-  firstName,
-  familyName,
-  title,
-  payPerHour,
-  timeInEvents,
-  timeOutEvents
-};
+  return {
+    firstName,
+    familyName,
+    title,
+    payPerHour,
+    timeInEvents,
+    timeOutEvents
+  };
 }
 /*
  We're giving you this function. Take a look at it, you might see some usage
