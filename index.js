@@ -8,7 +8,7 @@ const createEmployeeRecord = (employeeData) => {
   timeInEvents = [],
   timeOutEvents = [],
 ] = employeeData;
-return this;
+console.log(this)
   // return {
   //   firstName,
   //   familyName,
