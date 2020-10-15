@@ -19,14 +19,9 @@ const createEmployeeRecord = employeeData => {
   };
 }
 
-// const createEmployeeRecords = records => {
-//   return records.map(record => {
-//     return createEmployeeRecords(record)
-//   });
-// }
-function createEmployeeRecords(employeesInfo){
-  return employeesInfo.map(information => {
-    return createEmployeeRecord(information)
+const createEmployeeRecords = records => {
+  return records.map(record => {
+    return createEmployeeRecords(record)
   });
 }
 /*
