@@ -25,10 +25,13 @@ const createEmployeeRecords = records => {
   });
 }
 
-const createTimeInEvent = date => {
-  console.log(this, date);
-}
+// const createTimeInEvent = date => {
+//   console.log(this, date);
+// }
 
+function createTimeInEvent(date){
+  console.log(this, date)
+}
 
 
 
