@@ -20,11 +20,7 @@ const createEmployeeRecord = employeeData => {
 }
 
 const createEmployeeRecords = records => {
-  let arrayOfObjects = [];
-  for (const record of records){
-    arrayOfObjects.push(createEmployeeRecords(record));
-  }
-  return arrayOfObjects;
+
 }
 
 /*
