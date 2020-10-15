@@ -53,7 +53,7 @@ function hoursWorkedOnDate(date){
 }
 
 function wagesEarnedOnDate(date){
-  console.log(this, date)
+  return this.hoursWorkedOnDate(date) * this.payPerHour;
 }
 
 
