@@ -25,7 +25,9 @@ const createEmployeeRecords = records => {
   });
 }
 
-
+const createTimeInEvent = date => {
+  console.console.log(date);
+}
 
 
 
