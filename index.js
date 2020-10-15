@@ -58,7 +58,7 @@ function wagesEarnedOnDate(date){
 }
 
 function calculatePayroll(records){
-  console.log(records)
+   
 }
 
 
