@@ -37,6 +37,7 @@ const createTimeEventObject = (setType, time) => {
 }
 
 function createTimeInEvent(date){
+  console.log(this)
   this.timeInEvents.push(createTimeInEvent("TimeIn", date));
   return this;
 }
