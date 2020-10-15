@@ -20,7 +20,7 @@ const createEmployeeRecord = employeeData => {
 }
 
 const createEmployeeRecords = records => {
-  console.log(records)
+  
 }
 
 /*
