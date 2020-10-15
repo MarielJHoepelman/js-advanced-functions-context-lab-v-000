@@ -1,5 +1,5 @@
 /* Your Code Here */
-const createEmployeeRecord = (employeeData) => {
+const createEmployeeRecord = employeeData => {
   const [
   firstName,
   familyName,
@@ -19,6 +19,7 @@ const createEmployeeRecord = (employeeData) => {
   };
 }
 
+const createEmployeeRecords = 
 
 /*
  We're giving you this function. Take a look at it, you might see some usage
