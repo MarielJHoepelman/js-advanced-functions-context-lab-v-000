@@ -8,15 +8,15 @@ const createEmployeeRecord = (employeeData) => {
   timeInEvents = [],
   timeOutEvents = [],
 ] = employeeData;
-// console.log(this)
-//   // return {
-//   //   firstName,
-//   //   familyName,
-//   //   title,
-//   //   payPerHour,
-//   //   timeInEvents,
-//   //   timeOutEvents
-//   // };
+
+  return {
+    firstName,
+    familyName,
+    title,
+    payPerHour,
+    timeInEvents,
+    timeOutEvents
+  };
 }
 /*
  We're giving you this function. Take a look at it, you might see some usage
