@@ -21,7 +21,7 @@ const createEmployeeRecord = employeeData => {
 
 const createEmployeeRecords = records => {
   return records.map(record => {
-    createEmployeeRecords(record)
+    return createEmployeeRecords(record)
   }, 0);
 }
 
