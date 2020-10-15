@@ -49,6 +49,9 @@ function createTimeOutEvent(date){
 function hoursWorkedOnDate(date){
   const timeIn = this.timeInEvents.find(timeInEvent => timeInEvent.date === date);
   const TimeOut = this.timeOutEvents.find(timeOutEvent => timeOutEvent.date === date);
+  return (setTimeout(function () {
+
+  }, 10);)
 }
 
 
