@@ -22,7 +22,7 @@ const createEmployeeRecord = employeeData => {
 const createEmployeeRecords = records => {
   let arrayOfObjects = [];
   for (const record of records) {
-    arrayOfObjects.append(createEmployeeRecords(record));
+    arrayOfObjects.push(createEmployeeRecords(record));
   }
   return arrayOfObjects;
 }
