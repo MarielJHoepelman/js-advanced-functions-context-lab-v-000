@@ -57,6 +57,10 @@ function wagesEarnedOnDate(date){
   return this.payPerHour * hours;
 }
 
+function payrollExpense(records){
+  console.log(records)
+}
+
 
 
 
