@@ -62,7 +62,7 @@ function calculatePayroll(records){
 }
 
 function findEmployeeByFirstName(records, name) {
-  console.log(records, name)
+  return records.find(record => record.name === name);
 }
 
 
